@@ -1,8 +1,8 @@
 <script>
 	let world = $state('world');
 
-	function onclick(event) {
-		world = 'svelte';
+	function onclick() {
+		world = world == 'world' ? 'svelte' : 'world';
 	}
 </script>
 
